@@ -17,22 +17,22 @@ USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based o
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " ")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "38484181")
+    API_HASH  = os.environ.get("API_HASH", "004516cc7835d8a332e1cb5717393ff3")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8653146618:AAGfM_9MDeQpoHl07F0MfSfhO32GAbb4o30") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","ls bots")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://animearc1525:ifx9pVcA9qSkyjhI@cluster0.ybttjlc.mongodb.net/?appName=Cluster0")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "8337976117"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
+    START_PIC   = os.environ.get("START_PIC", "https://i.ibb.co/7NpcHcXB/VN9s-B81u.jpg")
     
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "ls_bots").split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
@@ -53,16 +53,16 @@ class Txt(object):
 
 ➻ This Bot is only for Admin use other can use with low limitation </blockquote>
 
-<blockquote><b>Bot Is Made By :</b> @Tech_Freak_Tamil</blockquote>"""
+<blockquote><b>Bot Is Made By :</b> @ls_bots</blockquote>"""
 
     ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='https://t.me/Tech_Freak_Tamil'>Auto Renamer bot ⚡</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Tech_Freak_Tamil'>TFT BOTS</a>
-<b>🛡️ Disscussion :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>
+<b>📢 Channel :</b> <a href='https://t.me/ls_bots'>TFT BOTS</a>
+<b>🛡️ Disscussion :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>Ls Discussion</a></blockquote>
     
-<blockquote><b>😈 Bot Made By :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>"""
+<blockquote><b>😈 Bot Made By :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>Ls Discussion</a></blockquote>"""
 
     HELP_TXT = """<blockquote>
 🌌 <b><u>How To Set Thumbnail</u></b>
@@ -105,9 +105,9 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @Tech_Freak_Tamil</code>
+<code>By :- @ls_bots</code>
 
-💬 For Any Help Contact @Tech_Freak_Tamil
+💬 For Any Help Contact @ls_bots
 </blockquote>"""
 
 
