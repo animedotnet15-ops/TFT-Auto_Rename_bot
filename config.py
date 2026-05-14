@@ -19,7 +19,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "38484181")
     API_HASH  = os.environ.get("API_HASH", "004516cc7835d8a332e1cb5717393ff3")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8653146618:AAGfM_9MDeQpoHl07F0MfSfhO32GAbb4o30") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8653146618:AAEnCjw1CmAbgGeFyaDPkegRLbqBcpU1n44") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","lsbots")     
