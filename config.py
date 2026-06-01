@@ -19,7 +19,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "38484181")
     API_HASH  = os.environ.get("API_HASH", "004516cc7835d8a332e1cb5717393ff3")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8653146618:AAEnCjw1CmAbgGeFyaDPkegRLbqBcpU1n44") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8957542770:AAHWk_QxucizIWjkhWaIgtE68AmRFhViS00") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","lsbots")     
@@ -32,7 +32,7 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://i.ibb.co/7NpcHcXB/VN9s-B81u.jpg")
     
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "").split(',')
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "ls_bots").split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003990983453" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
